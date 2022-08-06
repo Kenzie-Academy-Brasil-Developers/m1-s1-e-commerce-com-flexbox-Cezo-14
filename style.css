@@ -1,20 +1,13 @@
-body {
-    background-color: rgb(245, 245, 245);
-    font-family: 'Roboto', sans-serif;  
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-
-.container{
-    max-width: 1200px;
-    margin: 0 auto; 
-  }
-
-
-  .menu {
-    width: 100%;
-    background: #ffffff;
-    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
-  }
+.menu {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+}
 
 .menu-flex {
   display: flex;
@@ -35,7 +28,7 @@ body {
 .menu-nav ul {
   display: flex;
   list-style: none;
-  gap: 10px; 
+  gap: 10px;
 }
 
 .menu-nav ul li a {
@@ -53,198 +46,65 @@ body {
   align-items: center;
   border-radius: 4px;
 }
-  
-
-section {
-    background-color: white;
-}
 
 .products-wrapper {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-
-
-.produtos {
-    border: none;
-    font-size: 20px;
-    border-radius: 10px;
-    width: 24%;
-    margin:100px 0px 5px 10px;
-   
+body {
+  background-color: rgb(245, 245, 245);
+  font-family: "Roboto", sans-serif;
 }
 
-
-h3 { text-align: center;
-    font-size: 17px;
+section {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 10px;
+  width: 24%;
+  margin: 20px 0 20px 0;
+  gap: 25px;
+  font-size: 14px;
 }
 
-.paragrafo-1{
-    margin:50px 60px 0px 15px;
+section img {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.paragrafo-2 {
-    margin:50px 60px 0px 15px; 
+section h3 {
+  text-align: center;
+  display: block;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-bottom: 5px;
 }
 
-.paragrafo-3 {
-    margin:33px 50px 0px 15px; 
+section p strong {
+  display: block;
+  width: 250px;
+  font-size: 16px;
 }
 
-.paragrafo-4 {
-    margin:33px 50px 10px 15px; 
+section button {
+  cursor: pointer;
+  align-content: center;
+  background-color: rgb(76, 110, 245);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  display: block;
+  width: 1000px;
+  height: 40px;
+  margin: 0px 20px 15px 20px;
 }
 
-.paragrafo-5 {
-    margin:20px 50px 10px 15px; 
-}
-
-.paragrafo-6 {
-    margin:40px 50px 10px 15px; 
-}
-
-.paragrafo-7 {
-    margin:40px 50px 10px 15px; 
-}
-
-.paragrafo-8 {
-    margin:20px 50px 10px 15px; 
-}
-
-
-img {
-    display: block;
-    margin:50px 0px 20px 0px;
-}
-
-.img-1{
-    margin:40px 0px 30px 50px;
-}
-
-.img-2 {
-    margin:26px 0px 30px 39px;
-}
-
-.img-3{
-    margin:30px 0px 30px 5px;
-}
-
-.img-4 {
-    margin:31px 0px 30px 5px;
-}
-
-.img-5{
-    margin:39px 0px 30px 6px;
-}
-
-.img-6{
-    margin:40px 0px 30px 0px;
-}
-
-.img-7{
-    margin:40px 0px 30px 27px;
-}
-
-.img-8 {
-    margin:40px 0px 67px 60px;
-}
-
-
-
-
-
-.botao-1{
-    background-color: #4c6ef5;
-    color: white;
-    border-radius: 6px;
-    text-align: center;
-    border: none;
-    margin: 41px 73px 13px 20px;
-    width: 250px;
-    height: 40px;
-}
-
-.botao-2{
-    background-color: #4c6ef5;
-    color: white;
-    border-radius: 6px;
-    text-align: center;
-    border: none;
-    margin: 44px 20px 13px 20px;
-    width: 250px;
-    height: 40px;
-}
-
-
-.botao-3{
-    background-color: #4c6ef5;
-    color: white;
-    border-radius: 6px;
-    text-align: center;
-    border: none;
-    margin: 40px 20px 13px 20px;
-    width: 250px;
-    height: 40px;
-}
-
-
-.botao-4{
-    background-color: #4c6ef5;
-    color: white;
-    border-radius: 6px;
-    text-align: center;
-    border: none;
-    margin: 29px 20px 13px 20px;
-    width: 250px;
-    height: 40px;
-}
-
-
-.botao-5{
-    background-color: #4c6ef5;
-    color: white;
-    border-radius: 6px;
-    text-align: center;
-    border: none;
-    margin: 29px 20px 13px 20px;
-    width: 250px;
-    height: 40px;
-}
-
-
-.botao-6{
-    background-color: #4c6ef5;
-    color: white;
-    border-radius: 6px;
-    text-align: center;
-    border: none;
-    margin: 28px 20px 13px 20px;
-    width: 250px;
-    height: 40px;
-}
-
-
-.botao-7{
-    background-color: #4c6ef5;
-    color: white;
-    border-radius: 6px;
-    text-align: center;
-    border: none;
-    margin: 28px 20px 13px 20px;
-    width: 250px;
-    height: 40px;
-}
-
-
-.botao-8{
-    background-color: #4c6ef5;
-    color: white;
-    border-radius: 6px;
-    text-align: center;
-    border: none;
-    margin: 30px 73px 13px 20px;
-    width: 250px;
-    height: 40px;
+section button:hover {
+  background-color: blue;
 }
